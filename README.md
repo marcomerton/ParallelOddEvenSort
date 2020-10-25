@@ -14,8 +14,10 @@ Four implementations are provided:
 ## Compiling Instructions
 FastFlow library is required to compile the ```odd-even-ff.cpp``` code.
 To install run
->cd /usr/local
->git clone https://github.com/fastflow/fastflow.git
->ln -s ./fastflow/ff ./include
+> cd /usr/local
+
+> git clone https://github.com/fastflow/fastflow.git
+
+> ln -s ./fastflow/ff ./include
 
 The ```makefile``` provided can compile all the versions. Adding a ```-s``` after the filename
