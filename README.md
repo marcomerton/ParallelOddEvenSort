@@ -14,8 +14,17 @@ Four implementations are provided:
 ## Compiling Instructions
 FastFlow library is required to compile the ```odd-even-ff.cpp``` code.
 To install run
-> cd /usr/local
+```
+cd /usr/local
 git clone https://github.com/fastflow/fastflow.git
 ln -s ./fastflow/ff ./include
+```
 
-The ```makefile``` provided can compile all the versions. Adding a ```-s``` after the filename
+The ```makefile``` provided can compile all the versions.
+> make odd-even-seq
+
+Adding a ```-s``` after the file name will result in the code being compiled so that detailed statistics are printed after the execution, including the average time spent in each phase, the average number of swaps in each phase and the average time spent for the synchronization.
+> make odd-even-seq-s
+
+Adding a ```-p``` after the file name will result in the code being compiled so that the array content is printed after each phase, to be used for debug or explanatory purposes.
+> make off-even-seq-p
