@@ -21,12 +21,10 @@ $ ln -s ./fastflow/ff ./include
 ```
 
 The ```makefile``` provided can compile all the versions. E.g.
-```
-$ make odd-even-seq
-```
+```$ make odd-even-seq```
 
 Adding a ```-s``` after the file name will result in the code being compiled so that detailed statistics are printed after the execution, including the average time spent in each phase, the average number of swaps in each phase and the average time spent for the synchronization. E.g.
-> ```make odd-even-seq-s```
+```$ make odd-even-seq-s```
 
 Adding a ```-p``` after the file name will result in the code being compiled so that the array content is printed after each phase, to be used for debug or explanatory purposes. E.g.
-> ```make off-even-seq-p```
+```$ make off-even-seq-p```
