@@ -32,5 +32,5 @@ $ make odd-even-seq-s
 
 Adding a ```-p``` after the file name will result in the code being compiled so that the array content is printed after each phase, to be used for debug or explanatory purposes. E.g.
 ```
-$ make off-even-seq-p
+$ make odd-even-seq-p
 ```
